@@ -1,0 +1,8 @@
+To understand how this program works, you need to be familiar with the 
+concept of pointers. A pointer is initiated whenever we open a file. On 
+opening a file, a pointer is set up which points to the first record in the 
+file. To be precise this pointer is present in the structure to which the file 
+pointer returned by fopen( ) points to. On using the function either
+fread( ) or fwrite( ), the pointer moves to the beginning of the next 
+record. On closing a file the pointer is deactivated. Note that the pointer 
+movement is of utmost importance si

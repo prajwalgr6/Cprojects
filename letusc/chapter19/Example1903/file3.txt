@@ -1,0 +1,4 @@
+Same argument also applies to writing information in a file. Instead of 
+writing characters in the file on the disk one character at a time it would 
+be more efficient to write characters in a buffer and then finally transfer 
+the contents from the buffer to the disk
